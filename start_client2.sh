@@ -130,3 +130,5 @@ echo "    - SSH ($SSH_PORT/tcp) via provider IP"
 echo "    - OpenVPN server ($OVPN_SERVER_PORT/tcp+udp) via provider IP"
 echo "    - Local VPN subnet $SERVER_NET accessible"
 echo "    - All other traffic goes out $CLIENT_DEV (Surfshark Polish IP)"
+
+curl -4 ifconfig.io
